@@ -18,3 +18,4 @@ wagePerHr=20
 	fullDayHr=8
 	dailyWage=$(($wagePerHr * $fullDayHr))
 		echo "Employee daily wage is: " $dailyWage
+
