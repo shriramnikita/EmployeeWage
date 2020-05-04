@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-echo "Welcome to  Employee Wage Computation Program on master branch"
+echo "****Welcome to  Employee Wage Computation Program on master branch****"
 
 #UC 1st
 	random=$((RANDOM%2))
@@ -10,3 +10,11 @@ echo "Welcome to  Employee Wage Computation Program on master branch"
 	else
 		echo "Employee is not present"
 	fi
+
+
+#UC 2nd
+
+wagePerHr=20
+	fullDayHr=8
+	dailyWage=$(($wagePerHr * $fullDayHr))
+		echo "Employee daily wage is: " $dailyWage
