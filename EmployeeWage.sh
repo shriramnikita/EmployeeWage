@@ -1,3 +1,3 @@
 #!/bin/bash -x
 
-echo "Welcome to  Employee Wage Computation Program on master branch"
+echo "Welcome to  Employee Wage Computation Program on master branch."
