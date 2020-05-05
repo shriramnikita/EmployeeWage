@@ -17,5 +17,5 @@ echo "****Welcome to  Employee Wage Computation Program on master branch****"
 	wagePerHr=20
 	fullDayHr=8
 	dailyWage=$(($wagePerHr * $fullDayHr))
-		echo "Employee daily wage is: " $dailyWage
+		echo "Employee daily wage is:: " $dailyWage
 
