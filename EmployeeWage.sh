@@ -2,7 +2,7 @@
 
 echo "Welcome to  Employee Wage Computation Program on master branch."
 
-#uc 2 check if emp is present or notusing random 
+#uc 1 check if emp is present or notusing random 
 
 random=$((RANDOM%2))
 	if [ $random -eq 0 ]
