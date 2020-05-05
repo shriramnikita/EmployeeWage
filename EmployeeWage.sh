@@ -12,9 +12,9 @@ echo "****Welcome to  Employee Wage Computation Program on master branch****"
 	fi
 
 
-#UC 2nd
+#UC 2nd calculate emp daily wages
 
-wagePerHr=20
+	wagePerHr=20
 	fullDayHr=8
 	dailyWage=$(($wagePerHr * $fullDayHr))
 		echo "Employee daily wage is: " $dailyWage
